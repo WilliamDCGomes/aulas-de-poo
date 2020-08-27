@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Televisao
+comment1.params=volume\ canal
+comment1.target=Televisao(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ AumentarVolume()
+comment3.params=
+comment3.target=java.lang.String\ DiminuirVolume()
+comment4.params=
+comment4.target=java.lang.String\ AumentarCanal()
+comment5.params=
+comment5.target=java.lang.String\ DiminuirCanal()
+comment6.params=canalEscolhido
+comment6.target=java.lang.String\ TrocaCanal(int)
+comment7.params=
+comment7.target=java.lang.String\ ConsultarInfo()
+numComments=8

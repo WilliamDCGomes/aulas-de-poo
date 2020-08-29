@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Beneficiario
+comment1.params=name\ idade\ sexo\ chefeDeFamilia\ rendaMensal\ carteiraAssinada\ agentePublico\ mandatoEletivo\ conta
+comment1.target=Beneficiario(java.lang.String,\ int,\ char,\ boolean,\ double,\ boolean,\ boolean,\ boolean,\ ContaBeneficiario)
+numComments=2

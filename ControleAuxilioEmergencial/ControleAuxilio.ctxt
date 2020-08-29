@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ControleAuxilio
+comment1.params=beneficiario
+comment1.target=boolean\ TemDireito(Beneficiario)
+comment2.params=beneficiario
+comment2.target=double\ ValorDoBeneficio(Beneficiario)
+numComments=3

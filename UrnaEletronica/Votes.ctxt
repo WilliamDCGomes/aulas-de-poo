@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Votes
+comment1.params=ballotBox
+comment1.target=Votes(BallotBox)
+comment2.params=
+comment2.target=void\ newVote()
+numComments=3

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Candidate
+comment1.params=name\ age\ ballotBox
+comment1.target=Candidate(java.lang.String,\ int,\ BallotBox)
+comment2.params=
+comment2.target=void\ showTotalVotes()
+comment3.params=elector
+comment3.target=void\ addElector(Elector)
+comment4.params=
+comment4.target=void\ showElector()
+comment5.params=position
+comment5.target=void\ positionOfCandidate(java.lang.String)
+comment6.params=
+comment6.target=void\ receiveVote()
+numComments=7

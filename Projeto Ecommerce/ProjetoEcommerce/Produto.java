@@ -1,26 +1,19 @@
-public class Produto{
+public class Produto  {
     String fabricante;
-    String nomeProduto;
+    String nome;
     double preco;
-    int quantidade;
-    int quantidadeMinima;
-    public Produto(String fabricante, String nomeProduto, double preco, int quantidade, int quantidadeMinima){
-        this.fabricante = fabricante;
-        this.nomeProduto = nomeProduto;
+    public void insereProduto(String nomeDoFabricante, String nome, double preco){
+        this.fabricante = nomeDoFabricante;
+        this.nome = nome;
         this.preco = preco;
-        this.quantidade = quantidade;
-        this.quantidadeMinima = quantidadeMinima;
     }
-    public boolean produtoAbaixoDoMinimo(){
-        if(quantidadeMinima>quantidade){
-            return true;
-        }
-        return false;
+
+    public String pegaNome(){
+        return nome;
     }
-    public int pegarQuantidade(){
-        return quantidade;
-    }
-    public double pegarPreco(){
+    public double pegaPreco(){
         return preco;
     }
+
+    
 }

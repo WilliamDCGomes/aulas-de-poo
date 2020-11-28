@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Computador
+comment1.params=
+comment1.target=void\ insereProduto()
+comment2.params=hd
+comment2.target=void\ SetHd(int)
+comment3.params=memoria
+comment3.target=void\ SetMemoria(int)
+comment4.params=processador
+comment4.target=void\ SetProcessador(java.lang.String)
+comment5.params=
+comment5.target=int\ GetHd()
+comment6.params=
+comment6.target=int\ GetMemoria()
+comment7.params=
+comment7.target=java.lang.String\ pegaPr()
+numComments=8

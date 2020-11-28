@@ -1,33 +1,10 @@
+public class Cerveja extends Produto {
+    private double teorAlcoolico;
+    private String prazoValidade;
 
-/**
- * Escreva a descrição da classe Cerveja aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
-public class Cerveja
-{
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Cerveja
-     */
-    public Cerveja()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public void insereCerveja(double teorAlcoolico, String prazoValidade){
+        this.teorAlcoolico = teorAlcoolico;
+        this.prazoValidade = prazoValidade;
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
-    }
 }

@@ -1,33 +1,11 @@
+public class Televisao extends Produto{
+    private double peso;
+    private double tamanho;
+    private String resolucao;
 
-/**
- * Escreva a descrição da classe Televisao aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
-public class Televisao
-{
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Televisao
-     */
-    public Televisao()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
-    }
+    public void insereTelevisao(double peso, double tamanho, String resolucao){
+        this.peso = peso;
+        this.tamanho = tamanho;
+        this.resolucao = resolucao;
+    }    
 }

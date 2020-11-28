@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Televisao
+comment1.params=peso\ tamanho\ resolucao
+comment1.target=void\ insereTelevisao(double,\ double,\ java.lang.String)
+numComments=2

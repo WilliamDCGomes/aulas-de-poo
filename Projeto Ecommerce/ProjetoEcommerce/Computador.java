@@ -1,33 +1,11 @@
-
-/**
- * Escreva a descrição da classe Computador aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
-public class Computador
-{
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Computador
-     */
-    public Computador()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+public class Computador extends Produto{
+    private int hd;
+    private int memoria;
+    private String processador;
+    
+    public void insereProduto(int hd, int memoria, String processador){
+        this.hd = hd;
+        this.memoria = memoria;
+        this.processador = processador;
     }
 }

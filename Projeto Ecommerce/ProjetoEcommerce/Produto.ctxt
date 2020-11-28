@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Produto
+comment1.params=fabricante\ nomeProduto\ preco\ quantidade\ quantidadeMinima
+comment1.target=Produto(java.lang.String,\ java.lang.String,\ double,\ int,\ int)
+comment2.params=
+comment2.target=boolean\ produtoAbaixoDoMinimo()
+comment3.params=
+comment3.target=int\ pegarQuantidade()
+comment4.params=
+comment4.target=double\ pegarPreco()
+numComments=5

@@ -1,11 +1,8 @@
-public class Pessoa
-{
+public class Pessoa{
     String name;
     String cpf;
     double hight, weight;
     String adress;
-    
-    
     public static boolean validaCPF(String cpf){
         String numeroDoCPF = cpf;
         boolean validade=false;
